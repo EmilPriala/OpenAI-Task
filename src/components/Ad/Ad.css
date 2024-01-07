@@ -1,0 +1,28 @@
+.main {
+    background-color: cornflowerBlue;
+    display: flex;
+    margin: 20px 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+.text-div {
+    margin-bottom: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    max-width: 300px;
+    border-radius: 500px;
+    padding: 0 30px;
+}
+a {
+    text-decoration: none;
+}
